@@ -1,0 +1,32 @@
+.studio {
+    padding: 1.25rem;
+    background-color: black;
+    color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight:600;
+    transition: ease-in-out;
+}
+
+.link:hover {
+    color: rgb(76, 76, 214);
+    transition-duration: 200ms;
+}
+
+.logo{
+    text-transform: uppercase;
+}
