@@ -8,6 +8,7 @@ const Hero = () => {
         src={banner}
         alt="banner image"
         className="w-full max-h-screen object-contain"
+        priority
       />
       <div className="absolute top-0 w-full h-full bg-black/30 text-gray-100 flex flex-col items-center justify-center">
         <h2 className="text-6xl md:text-[6rem] lg:text-[8.75rem] font-bold tracking-tighter">Thiago Alves</h2>
