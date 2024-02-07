@@ -28,7 +28,7 @@ export const RichText = {
   ),
   block: {
     h1: ({ children }: any) => (
-      <h1 className="text-4xl py-10 font-bold">{children}</h1>
+      <h1 className="text-4xl py-10 font-bold text-center">{children}</h1>
     ),
     h2: ({ children }: any) => (
       <h2 className="text-3xl py-10 font-bold">{children}</h2>
