@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Container from "./Container";
 import Logo from "./Logo";
-import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsInstagram, BsGithub, BsLinkedin, BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -12,10 +12,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/thiago-alves-010915274/"
           target="_blank"
         >
-          <BsLinkedin
-            className="text-2xl hover:text-red-500 duration-200"
-            target="_blank"
-          />
+          <BsLinkedin className="text-2xl hover:text-red-500 duration-200" />
         </Link>
         <Link href="https://github.com/Thiago87dev" target="_blank">
           <BsGithub className="text-2xl hover:text-red-500 duration-200" />
@@ -25,6 +22,12 @@ const Footer = () => {
           target="_blank"
         >
           <BsInstagram className="text-2xl hover:text-red-500 duration-200" />
+        </Link>
+        <Link
+          href="https://www.youtube.com/channel/UCgfRBiS95ojl8xsI6XtqjIw"
+          target="_blank"
+        >
+          <BsYoutube className="text-2xl hover:text-red-500 duration-200" />
         </Link>
       </div>
       <p className="text-sm inline-flex text-gray-300">
