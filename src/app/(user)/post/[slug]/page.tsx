@@ -46,6 +46,7 @@ const SlugPage = async ({ params: { slug } }: SlugPageProps) => {
             alt="main image"
             className="object-cover w-full"
           />
+          <h1 className="text-6xl font-bold flex justify-center mt-20">{post?.title}</h1>
         </div>
         <div className="md:w-1/3 w2/3 flex flex-col items-center gap-5p px-4 mt-5">
           <Image
