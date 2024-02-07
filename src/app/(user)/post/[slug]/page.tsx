@@ -36,7 +36,7 @@ const SlugPage = async ({ params: { slug } }: SlugPageProps) => {
   const post: Post = await client.fetch(query, { slug });
 
   return (
-    <Container className="mb-10">
+    <Container className="mb-10 p-4">
       <div className="flex flex-col md:flex-row items-center mb-10 ">
         <div className="w-full md:w-2/3 ">
           <Image
